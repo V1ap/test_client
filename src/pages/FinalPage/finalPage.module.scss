@@ -1,0 +1,29 @@
+@import "@/styles/vars.scss";
+
+.finalPage {
+  &__header {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__item {
+    font-size: 1rem;
+
+    & > span {
+      color: $redColor;
+    }
+  }
+
+  &__btn {
+    margin-top: 3rem;
+    border: none;
+    font-size: 1rem;
+    border-bottom: 0.0625rem solid $blackColor;
+  }
+}

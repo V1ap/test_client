@@ -1,0 +1,19 @@
+@import "@/styles/vars.scss";
+
+.progressBarItem {
+  width: auto;
+  height: 0.5rem;
+  border-radius: 10%;
+
+  &.done {
+    background-color: $blackColor;
+  }
+
+  &.current {
+    background-color: $redColor;
+  }
+
+  &.not-done {
+    background-color: $greyColor;
+  }
+}

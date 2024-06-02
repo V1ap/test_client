@@ -1,0 +1,19 @@
+@import "@/styles/vars.scss";
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+
+  &__header {
+    font-size: 2rem;
+  }
+
+  &__time {
+    padding: 0.5rem 1rem;
+    border: 1px solid $blackColor;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+}

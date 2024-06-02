@@ -1,0 +1,29 @@
+@import "@/styles/vars.scss";
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__btn {
+    padding: 0.5rem 1.5rem;
+    background-color: $redColor;
+    border-radius: 0.5rem;
+    font-weight: $fontBold;
+    border: solid 0.125rem $redColor;
+    color: $whiteColor;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+      opacity 0.3s ease;
+
+    &:hover:not(:disabled) {
+      background-color: $whiteColor;
+      color: $redColor;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+  }
+}

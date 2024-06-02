@@ -1,0 +1,6 @@
+.progressBar {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1rem, 3rem));
+  gap: 0.25rem;
+}

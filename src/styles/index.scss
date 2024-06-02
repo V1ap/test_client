@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import "@/styles/vars.scss";
+* {
+  font-family: "Roboto", sans-serif;
+  color: $blackColor;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea:where(.css-dev-only-do-not-override-j9bb5n).ant-input {
+  resize: none;
+}
+
+button {
+  background-color: $whiteColor;
+  cursor: pointer;
+}
